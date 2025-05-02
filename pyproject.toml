@@ -1,0 +1,14 @@
+[project]
+name = "impatient-computer-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fiftyone==1.4.1",
+    "huggingface-hub==0.30.2",
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "transformers==4.51.3",
+    "umap-learn==0.5.7",
+]
